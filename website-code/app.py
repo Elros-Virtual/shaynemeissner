@@ -3,9 +3,9 @@ from flask import Flask, render_template, request
 # from flask_sendgrid import SendGrid
 
 app = Flask(__name__)
-app.config['SENDGRID_API_KEY'] = 'apikey'
-app.config['SENDGRID_DEFAULT_FROM'] = 'hello@elrosvirtual.co.uk'
-mail = SendGrid(app)
+# app.config['SENDGRID_API_KEY'] = 'apikey'
+# app.config['SENDGRID_DEFAULT_FROM'] = 'hello@elrosvirtual.co.uk'
+# mail = SendGrid(app)
 
 
 @app.route('/', methods=["POST", "GET"])

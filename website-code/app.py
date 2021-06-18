@@ -1,4 +1,3 @@
-import os
 from flask import Flask, render_template, request
 from flask_mail import Mail, Message
 from flask_sendgrid import SendGrid
@@ -26,5 +25,5 @@ def index():
 
 
 if __name__ == '__main__':
-    #app.run(debug=True, host='0.0.0.0')
-    app.run(debug=True)
+    app.run(debug=True, host='0.0.0.0')
+    # app.run(debug=True)

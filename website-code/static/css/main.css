@@ -786,7 +786,7 @@ input, select, textarea {
 
 		input[type="checkbox"].color1 + label:before,
 		input[type="radio"].color1 + label:before {
-			color: #726193;
+			color: #35323a;
 		}
 
 		input[type="checkbox"].color2 + label:before,
@@ -1394,7 +1394,7 @@ input, select, textarea {
 			}
 
 		ul.contact-icons.color1 > li:before {
-			color: #726193;
+			color: #323135;
 		}
 
 		ul.contact-icons.color2 > li:before {
@@ -2195,7 +2195,7 @@ input, select, textarea {
 		}
 
 			.panel > *.color0 {
-				background-image: url("../images/overlay.png"), linear-gradient(45deg, #726193 20%, #e37b7c 60%, #ffe4b4);
+				background-image: url("../images/overlay.png"), linear-gradient(45deg, #333136 20%, #e37b7c 60%, #333136);
 				background-size: 128px 128px, auto;
 			}
 
@@ -2208,7 +2208,7 @@ input, select, textarea {
 			.panel > *.color2 {
 				background-image: url("../images/overlay.png"), linear-gradient(45deg, rgba(114, 97, 147, 0.25) 25%, rgba(227, 123, 124, 0.25) 50%, rgba(255, 228, 180, 0.25));
 				background-size: 128px 128px, auto;
-				background-color: #e37b7c;
+				background-color: #333136;
 			}
 
 			.panel > *.color3 {
@@ -2712,14 +2712,14 @@ input, select, textarea {
 		}
 
 		.panel.color0 {
-			background-image: url("../images/overlay.png"), linear-gradient(45deg, #726193 20%, #e37b7c 60%, #ffe4b4);
+			background-image: url("../images/overlay.png"), linear-gradient(45deg, #333136 20%, #e37b7c 60%, #ffe4b4);
 			background-size: 128px 128px, auto;
 		}
 
 		.panel.color1 {
 			background-image: url("../images/overlay.png"), linear-gradient(45deg, rgba(114, 97, 147, 0.25) 25%, rgba(227, 123, 124, 0.25) 50%, rgba(255, 228, 180, 0.25));
 			background-size: 128px 128px, auto;
-			background-color: #726193;
+			background-color: #434147;
 		}
 
 		.panel.color2 {
@@ -2743,7 +2743,7 @@ input, select, textarea {
 		.panel.color1-alt {
 			background-image: url("../images/overlay.png"), linear-gradient(45deg, rgba(114, 97, 147, 0.175) 25%, rgba(227, 123, 124, 0.175) 50%, rgba(255, 228, 180, 0.175));
 			background-size: 128px 128px, auto;
-			background-color: #6c5e86;
+			background-color: #2e2d31;
 		}
 
 		.panel.color2-alt {
@@ -2777,7 +2777,7 @@ input, select, textarea {
 			.panel > *.color1 {
 				background-image: url("../images/overlay.png"), linear-gradient(135deg, rgba(114, 97, 147, 0.25) 25%, rgba(227, 123, 124, 0.25) 50%, rgba(255, 228, 180, 0.25));
 				background-size: 128px 128px, auto;
-				background-color: #726193;
+				background-color: #333136;
 			}
 
 			.panel > *.color2 {

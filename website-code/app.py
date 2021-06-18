@@ -1,6 +1,6 @@
 from flask import Flask, render_template, request
-from flask_mail import Mail, Message
-from flask_sendgrid import SendGrid
+# from flask_mail import Mail, Message
+# from flask_sendgrid import SendGrid
 
 app = Flask(__name__)
 app.config['SENDGRID_API_KEY'] = 'apikey'

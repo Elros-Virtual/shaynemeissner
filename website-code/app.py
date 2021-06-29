@@ -28,7 +28,7 @@ def index():
 
 
 @app.route('/test')
-def test():
+def test(apikey=apikey):
     return (apikey)
 
 

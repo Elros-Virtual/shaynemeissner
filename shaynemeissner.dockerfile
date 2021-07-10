@@ -2,6 +2,8 @@ FROM ubuntu:latest
 
 RUN apt-get update
 
+RUN apt install vim
+
 RUN apt-get install -y python3.8
 
 RUN apt install -y python3-pip

@@ -27,9 +27,9 @@ def index():
     return render_template('index.html')
 
 
-# @app.route('/test')
-# def test(apikey=apikey):
-#     return (apikey)
+@app.route('/seouless')
+def seouless():
+    return render_template('seouless.html')
 
 
 if __name__ == '__main__':
